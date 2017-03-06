@@ -9,3 +9,4 @@ angular.module('app',[])
                     $http.get('Data/names.json').then(function(data){
                            $scope.names = data;
                     });
+        });
