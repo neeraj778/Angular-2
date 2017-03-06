@@ -6,7 +6,9 @@ angular.module('app',[])
                                     {name: 'Deepti', age: 30, sex: 'female'}
                                   ];
 
+                    /*
                     $http.get('Data/names.json').then(function(data){
                            $scope.names = data;
                     });
+                    */
         });
