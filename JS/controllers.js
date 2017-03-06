@@ -1,4 +1,5 @@
-       app.controller('page1Controller',function($scope,$http){
+       angular.module('controllers')
+              .controller('page1Controller',function($scope,$http){
               $scope.names2 = [
                               {name: 'Neeraj', age: 28, sex: 'male'},
                               {name: 'Ankit', age: 26, sex: 'male'},
