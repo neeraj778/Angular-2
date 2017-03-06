@@ -3,4 +3,4 @@ angular.module('app',[])
           $http.get('Data/names.json').success(function(data){
               $scope.names = data;
           })
-       })
+       });
