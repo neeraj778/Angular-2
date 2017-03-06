@@ -1,1 +1,1 @@
-angular.module('app',['ngRoute','controllers'])
+angular.module('app',[])
